@@ -1,0 +1,28 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#botones{
+    background-color: rgba(20, 103, 14, 0.443);
+    border-bottom: 10mm;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#cuentaRegresiva{
+    color: red;
+}
+
+input{
+    height: 2em;
+    width: 12em;
+}

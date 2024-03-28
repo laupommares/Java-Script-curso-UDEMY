@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="misScripts.js"></script>
+    <link rel="stylesheet" href="misEstilos.css">
+    <title>Boletin Estudiantil</title>
+</head>
+<body onload="listarNotas()">
+    <div class="logo">
+    <img src="logoescuela.png" id="imagenLogo">
+    <h1>BOLETIN ESTUDIANTIL</h1>
+    </div>
+
+    <div class="estudiante">
+    <h2>ALUMNA: María Laura Pommarés Garrahan</h2>
+    </div>
+    
+    <h4>NOTAS:</h4>
+    <ul id="listaNotas">
+    </ul>
+
+    <div class="info">
+        <h4>Promedio: <span id="promedio"></span></h4>
+        <button onclick="calcularPromedio()">Calcular Promedio</button>
+
+        <h4>Nota más alta: <span id="nota"></span></h4>
+        <button onclick="notaMasAlta()">Buscar nota más alta</button>
+
+        <h4>Aplazos: <span id="aplazos"></span></h4>
+        <button onclick="hayAplazo()">Cantidad de aplazos</button>
+    </div>  
+</body>
+</html>

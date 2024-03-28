@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <title>calculadora</title>
+    <link rel="stylesheet" href="misEstilos.css">
+    <script src="javaScrip.js"></script>
+
+</head>    
+
+<body>
+    <input type="number" id="campo1">
+    <input type="number" id="campo2">
+    <br>
+    <br>
+    <button id="suma" onclick="eventoSumar()">+</button>
+    <button id="resta" onclick="eventoRestar()">-</button>
+    <button id="multiplicacion" onclick="eventoMultiplicar()">*</button>
+    <button id="division" onclick="eventoDivision()">/</button>
+    <br>
+    <div class="doble">
+        <button id="raizCuadrada" onclick="raizCuadrada()">Raiz</button>
+        <button id="potencia" onclick="eventoPotenciar()">Potencia</button>
+        <br>
+        <button id="absoluto" onclick="eventoValorAbsoluto()">Absoluto</button>
+        <button id="random" onclick="eventoRandom()">Random</button>
+    </div>
+    <h3>Resultado:</h3>
+    <input type="text" id="resultado">
+    <br><br>
+    <div class="triple">
+        <button id="round" onclick="eventoRound()">Round</button>
+        <button id="floor" onclick="eventoFloor()">Floor</button>
+        <button id="ceil" onclick="eventoCeil()">Ceil</button>
+    </div>
+ 
+</body>
+
+</html>
